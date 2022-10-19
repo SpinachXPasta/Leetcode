@@ -8,7 +8,7 @@ class Solution:
         if s == "":
             return True
         
-        if t == "":
+        if l1 > l2:
             return False
 
         if l1 == 1 and l2 == 1:

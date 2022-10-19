@@ -11,7 +11,7 @@ class Solution:
         if l1 > l2:
             return False
 
-        if l1 == 1 and l2 == 1:
+        if l1 == l2:
             if s != t:
                 return False
             else:
